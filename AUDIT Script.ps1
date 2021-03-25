@@ -18,28 +18,28 @@ $Bouton = New-Object System.Windows.Forms.Button
 $Bouton.Location = New-Object System.Drawing.Point(150,200)
 $Bouton.Width = 150
 $Bouton.Height = 25
-$Bouton.Text = "Cliquez moi! "
+$Bouton.Text = "Cliquez ici! "
 $Form.controls.Add($Bouton)
 
 $Bouton2 = New-Object System.Windows.Forms.Button
 $Bouton2.Location = New-Object System.Drawing.Point(600,200)
 $Bouton2.Width = 150
 $Bouton2.Height = 25
-$Bouton2.Text = "Cliquez moi! "
+$Bouton2.Text = "Cliquez ici! "
 $Form.controls.Add($Bouton2)
 
 $Bouton3 = New-Object System.Windows.Forms.Button
 $Bouton3.Location = New-Object System.Drawing.Point(150,500)
 $Bouton3.Width = 150
 $Bouton3.Height = 25
-$Bouton3.Text = "Cliquez moi! "
+$Bouton3.Text = "Cliquez ici! "
 $Form.controls.Add($Bouton3)
 
 $Bouton4 = New-Object System.Windows.Forms.Button
 $Bouton4.Location = New-Object System.Drawing.Point(600,500)
 $Bouton4.Width = 150
 $Bouton4.Height = 25
-$Bouton4.Text = "Cliquez moi!"
+$Bouton4.Text = "Cliquez ici!"
 $Form.controls.Add($Bouton4)
 
 $Label = New-Object System.Windows.Forms.Label
