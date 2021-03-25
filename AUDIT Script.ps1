@@ -33,6 +33,7 @@ $Bouton3.Location = New-Object System.Drawing.Point(150,500)
 $Bouton3.Width = 150
 $Bouton3.Height = 25
 $Bouton3.Text = "Cliquez ici! "
+$Bouton3
 $Form.controls.Add($Bouton3)
 
 $Bouton4 = New-Object System.Windows.Forms.Button
@@ -60,6 +61,7 @@ $Form.controls.AddRange(@($label2))
 $Label3 = New-Object System.Windows.Forms.Label
 $Label3.Location = New-Object System.Drawing.Point(150,400)
 $Label3.Text = "Audit DNS"
+$Label3.Text = & '.\AUDIT 3 Script.ps1'
 $Form.controls.AddRange(@($label3))
 
 $Label4 = New-Object System.Windows.Forms.Label
@@ -68,3 +70,4 @@ $Label4.Text = "Audit AD"
 $Form.controls.AddRange(@($label4))
 
 $Form.ShowDialog()
+
